@@ -37,13 +37,13 @@ body {
     font-style: normal;
     font-weight: 400;
     margin-bottom: 52px;
-  
+
 }
 
 .banner-image {
     width: 635px;
     height: 800px;
-    
+
 }
 
 button {
@@ -68,30 +68,33 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.feature-detils{
+
+.feature-detils {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.section-title{
+
+.section-title {
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
 
 }
-.section-detail{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
+
+.section-detail {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 
 }
 
@@ -105,7 +108,7 @@ font-weight: 400;
 .card {
     display: flex;
     flex-direction: column;
-   
+
 }
 
 .card-img {
@@ -117,7 +120,7 @@ font-weight: 400;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin-bottom: 32px;
-    
+
 
 }
 
@@ -135,5 +138,47 @@ font-weight: 400;
 .card img {
     width: 310px;
     height: 428px;
-    padding:110px 78px 0 78px;
+    padding: 110px 78px 0 78px;
+}
+
+/* support  */
+.support {
+    width: 1920px;
+    margin-top: 178px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.support-cards {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+.support-cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 86px 95px;
+}
+
+.support-cards img {
+    width: 88px;
+    height: 88px;
+
+
+}
+
+.support-cards p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 24px;
+
 }
