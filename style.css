@@ -91,7 +91,7 @@ button {
 .section-detail {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-   
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -182,49 +182,54 @@ button {
     padding-top: 24px;
 
 }
+
 /* hot-deals */
-.hot-deals{
+.hot-deals {
     margin-top: 128px;
-    
+
     display: flex;
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    
+
 }
-.hot-deals div{
+
+.hot-deals div {
     width: 58%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.hot-deals div>p{
+
+.hot-deals div>p {
     margin: 24px 0 52px 0;
 }
-    
-.hot-deals>img{
 
-height: 420px;
-flex-shrink: 0;
-margin-left: 186px;
+.hot-deals>img {
+
+    height: 420px;
+    flex-shrink: 0;
+    margin-left: 186px;
 }
 
 /* instagram */
-.instagram{
+.instagram {
     margin-top: 128px;
 }
-.image-galary{
+
+.image-galary {
     margin-top: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    
+
     gap: 24px;
-    
+
 }
-.subscribe{
+
+.subscribe {
     margin: 128px 0px;
     display: flex;
     flex-direction: column;
@@ -232,9 +237,54 @@ margin-left: 186px;
     background-image: url("Rectangle9.png");
     height: 449px;
 }
-.subscribe input{
+
+.subscribe input {
     margin-top: 48px;
     width: 700px;
     height: 64px;
+
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    color: ;
+    align-items: center;
+    justify-content: center;
+    height: 449px;
+    background-color: #111010;
+
+}
+
+footer h2 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer h2 span {
+    color: #E55473;
+}
+
+.footer-detail {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 
 }
