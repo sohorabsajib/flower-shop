@@ -182,3 +182,30 @@ button {
     padding-top: 24px;
 
 }
+/* hot-deals */
+.hot-deals{
+    margin-top: 128px;
+    
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    
+}
+.hot-deals div{
+    width: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hot-deals div>p{
+    margin: 24px 0 52px 0;
+}
+    
+.hot-deals>img{
+width: 318px;
+height: 420px;
+flex-shrink: 0;
+margin-left: 186px;
+}
