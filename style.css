@@ -79,9 +79,9 @@ button {
 }
 
 .section-title {
+    margin: 122px 0 0 0;
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -91,7 +91,7 @@ button {
 .section-detail {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    
+   
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -204,8 +204,37 @@ button {
 }
     
 .hot-deals>img{
-width: 318px;
+
 height: 420px;
 flex-shrink: 0;
 margin-left: 186px;
+}
+
+/* instagram */
+.instagram{
+    margin-top: 128px;
+}
+.image-galary{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+    gap: 24px;
+    
+}
+.subscribe{
+    margin: 128px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("Rectangle9.png");
+    height: 449px;
+}
+.subscribe input{
+    margin-top: 48px;
+    width: 700px;
+    height: 64px;
+
 }
