@@ -1,61 +1,74 @@
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 body {
-    width: 1920px;
-    margin: auto;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    font-family: 'Lato', sans-serif, 'Open Sans', sans-serif;
 }
 
 .banner {
-    height: 850px;
+    min-height: 850px; 
     background: rgba(229, 84, 115, 0.10);
+    
     display: flex;
-    align-items: center;
+    
+    justify-content: space-between; 
+    text-align: center;
 
 }
 
 .banner-details {
-    padding: 197px 240px 0px 240px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 0 20px; 
+    max-width: 800px;
+    
 }
+
 
 .banner-heading {
     color: #272727;
-    font-family: Lato;
-    font-size: 80px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    width: 708px;
+    text-align: left;
     margin-bottom: 32px;
 }
 
-.banner-description {
+.description {
+    text-align: left;
     color: #272727;
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     margin-bottom: 52px;
 
 }
 
-.banner-image {
-    width: 635px;
-    height: 800px;
-
+.banner>img {
+    max-width: 45%;
+    margin-bottom: 0;
+    margin-right: 0;
 }
 
 button {
-    display: inline-flex;
-    padding: 20px 43px;
-    align-items: flex-start;
-    gap: 10px;
+    
+    
+    width: fit-content;
+    padding: 10px 20px;
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
     border: none;
-    font-size: 20px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
 
@@ -63,6 +76,7 @@ button {
 
 /* feature  */
 .feature {
+    margin: 0 120px;
     margin-top: 178px;
     display: flex;
     flex-direction: column;
@@ -82,7 +96,7 @@ button {
     margin: 122px 0 0 0;
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
 
@@ -92,7 +106,7 @@ button {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
 
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
 
@@ -107,13 +121,14 @@ button {
 
 .card {
     display: flex;
+    flex-basis: calc(33.33% - 20px);
     flex-direction: column;
 
 }
 
 .card-img {
-    width: 464px;
-    height: 538px;
+    max-width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,26 +144,29 @@ button {
     text-decoration: none;
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
     text-decoration-line: underline;
 }
 
 .card img {
-    width: 310px;
+    max-width: 100%; /* Make card images responsive */
     height: 428px;
-    padding: 110px 78px 0 78px;
+    padding: 0; 
 }
 
 /* support  */
 .support {
-    width: 1920px;
-    margin-top: 178px;
+    margin: 60px 0 0px 0;
+    max-width: 100%;
+    padding: 0px 125px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
+    justify-content: space-between;
+    
+    
 
 }
 
@@ -156,19 +174,22 @@ button {
     display: flex;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    gap: 45px;
 
 }
 
 .support-cards .card {
+    margin-top:  30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 86px 95px;
+    /* padding: 40px 70px; */
 }
 
 .support-cards img {
-    width: 88px;
-    height: 88px;
+   
+    width: 44px;
+    height: 44px;
 
 
 }
@@ -176,7 +197,7 @@ button {
 .support-cards p {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 24px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
     padding-top: 24px;
@@ -195,7 +216,7 @@ button {
 }
 
 .hot-deals div {
-    width: 58%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,7 +228,7 @@ button {
 }
 
 .hot-deals>img {
-
+    
     height: 420px;
     flex-shrink: 0;
     margin-left: 186px;
@@ -223,10 +244,13 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-
+   
+    justify-content: center;
     gap: 24px;
 
+}
+.flowers img{
+    max-width: 100%;
 }
 
 .subscribe {
@@ -240,8 +264,11 @@ button {
 
 .subscribe input {
     margin-top: 48px;
-    width: 700px;
-    height: 64px;
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
 
 }
 
@@ -260,13 +287,14 @@ footer {
 footer h2 {
     color: #FFF;
     font-family: Lato;
-    font-size: 48px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
 
 footer h2 span {
+    font-size: 20px;
     color: #E55473;
 }
 
@@ -274,7 +302,7 @@ footer h2 span {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
 
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
 
@@ -283,7 +311,7 @@ footer h2 span {
 .copyright {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
 
